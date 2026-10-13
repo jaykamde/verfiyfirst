@@ -1,0 +1,15 @@
+{
+  "name": "niat-trust-agent",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Verify First: an AI agent that checks a NIAT partner institution's public records for parents, then books a pre-briefed counsellor call.",
+  "scripts": {
+    "dev": "node dev-server.js",
+    "test": "node test/agent.test.js && node test/smoke.js",
+    "prewarm": "node scripts/prewarm.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.70.0"
+  },
+  "engines": { "node": ">=20" }
+}

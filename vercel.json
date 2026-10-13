@@ -1,0 +1,7 @@
+{
+  "functions": {
+    "api/check.js": { "maxDuration": 60 },
+    "api/book.js": { "maxDuration": 15 },
+    "api/leads.js": { "maxDuration": 15 }
+  }
+}
